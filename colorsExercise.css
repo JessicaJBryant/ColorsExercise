@@ -1,0 +1,47 @@
+/* Color Name */
+h1 {
+    color: cornflowerblue;
+    background-color: red;
+}
+/* Hexadecimal */
+h2 {
+    color: #23ef01;
+    background-color: orange;
+}
+/* Hexadecimal Shorthand */
+h3 {
+    color: #b0d;
+    background-color: yellow;
+}
+/* Hexadecimal w/ Transparency */
+h4 {
+    color: #efab438c;
+    background-color: green;
+}
+/* Hexadecimal w/ Transparency Shorthand */
+h5 {
+    color: #f00d;
+    background-color: blue;
+}
+/* RGB */
+h6 {
+    color: rgb(255,255,255);
+    background-color: indigo;
+}
+/* RGBA */
+p {
+    color: rgba(15,231,253,0.8);
+    background-color: violet;
+}
+/* Hot Pink first list item */
+li:first-of-type {
+    color: hotpink;
+}
+/* Peachpuff background color for 3rd list item */
+li:last-of-type {
+    background-color: peachpuff;
+}
+/* 1st and 3rd li items border 5px wide, solid, and green */
+li:nth-of-type(2n+1) {
+    border: 5px solid green;
+}
